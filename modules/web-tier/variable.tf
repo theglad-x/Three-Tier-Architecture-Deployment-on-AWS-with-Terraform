@@ -1,0 +1,12 @@
+variable "image_id" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "web_public_subnets" {}
+variable "email" {}
+variable "web_lb_sg" {}
+variable "lbtg_port" {}
+variable "lbtg_protocol" {}
+variable "vpc_id" {}
+variable "web_sg" {}
+variable "listener_port" {}
+variable "listener_protocol" {}
