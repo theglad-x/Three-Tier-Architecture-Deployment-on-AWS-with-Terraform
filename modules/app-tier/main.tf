@@ -105,7 +105,7 @@ health_check {
   unhealthy_threshold = 2
 }
 lifecycle {
-  create_before_destroy = false
+  create_before_destroy = true
 }
   tags = {
     Name = "App loadbalancer target group"
