@@ -27,7 +27,7 @@ cd Three-Tier-Architecture-Deployment-on-AWS-with-Terraform
 ```
 
 # 3. Create S3 bucket to store the state file
-Create S3 bucket for backend to store Terraform state file. The S3 bucket can be created in two ways
+Create S3 bucket for backend to store Terraform state file. The S3 bucket can be created with either
 1. The configuration in `./s3-bucket.tf` file
 2. Through the AWS management console
 
