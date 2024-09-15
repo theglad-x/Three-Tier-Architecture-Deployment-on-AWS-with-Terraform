@@ -24,7 +24,7 @@ module "web-tier" {
   instance_type      = "t2.micro"
   key_name           = "tf-keypair"
   web_public_subnets = module.vpc.web_public_subnets
-  email              = "<the-email>"
+  email              = "<your-email>"
   web_lb_sg          = module.security-groups.weblbsg_sec_id
   lbtg_port          = 80
   lbtg_protocol      = "HTTP"
@@ -41,7 +41,7 @@ module "app-tier" {
   instance_type       = "t2.micro"
   key_name            = "tf-keypair"
   app_private_subnets = module.vpc.app_private_subnets
-  email               = "<the-email>"
+  email               = "<your-email>"
   app_lb_sg           = module.security-groups.applbsg_sec_id
   lbtg_port           = 80
   lbtg_protocol       = "HTTP"
