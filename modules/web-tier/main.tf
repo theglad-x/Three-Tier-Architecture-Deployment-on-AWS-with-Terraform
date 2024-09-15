@@ -102,7 +102,7 @@ health_check {
 }
 
 lifecycle {
-  create_before_destroy = false
+  create_before_destroy = true
 }
 
   tags = {
