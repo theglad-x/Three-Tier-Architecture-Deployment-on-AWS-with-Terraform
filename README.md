@@ -18,12 +18,12 @@ Before you begin, ensure you have:
 
 # 1. Clone the repository
 ``` bash
-git clone https://github.com/theglad-x/Three-tier-architecture-deployment-on-AWS-with-Terraform.git
+git clone https://github.com/theglad-x/Three-Tier-Architecture-Deployment-on-AWS-with-Terraform.git
 ```
 
 # 2. Change to the project folder
 ``` bash
-cd Three-tier-architecture-Deployment-on-AWS-with-Terraform
+cd Three-Tier-Architecture-Deployment-on-AWS-with-Terraform
 ```
 
 # 3. Create S3 bucket to store the state file
